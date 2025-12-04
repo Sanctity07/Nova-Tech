@@ -1,0 +1,139 @@
+Build a Modern Product Landing Page
+
+For a fictional brand: NovaTech Headphones.
+
+
+---
+
+✅ Requirements
+
+1. Navbar
+
+Logo on the left: “NovaTech”
+
+Three links on the right: Home | Features | Contact
+
+Sticky on scroll
+
+Should collapse into a menu icon on mobile
+
+
+
+---
+
+2. Hero Section
+
+Large headline: “Experience Sound Like Never Before”
+
+Subtext: 2–3 lines describing premium audio
+
+CTA button: “Buy Now”
+
+An image of a headphone (use any free image online)
+
+
+
+---
+
+3. Features Section (3 Cards)
+
+Each card should include:
+
+Icon or image
+
+Title
+
+Short description
+Examples:
+
+Noise Cancellation
+
+40-Hour Battery
+
+Premium Comfort
+
+
+Cards must be responsive.
+
+
+---
+
+4. Product Showcase
+
+A simple grid of 3 product variants:
+
+Image
+
+Model name
+
+Price
+
+“Add to Cart” button
+
+
+
+---
+
+5. Contact Section
+
+A simple form with:
+
+Name
+
+Email
+
+Message
+
+Submit button
+
+
+Must include basic form validation with JavaScript:
+
+All fields required
+
+Email must be valid
+
+
+
+---
+
+6. Footer
+
+Copyright © 2025
+
+Social icons (use placeholders or SVG)
+
+
+
+---
+
+🎯 Technical Expectations
+
+Clean and readable code
+
+Good spacing, alignment, and typography
+
+Fully responsive (mobile, tablet, desktop)
+
+Good color contrast
+
+No external CSS frameworks
+
+Vanilla JS only
+
+
+
+---
+
+🕒 Time Guide
+
+Here’s how to break your 2 hours:
+
+Task	Time
+
+Navbar + Hero	30 mins
+Features cards	20 mins
+Product grid	20 mins
+Contact form + JS validation	25 mins
+Footer	5 mins
+Fix responsiveness	20 mins

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nova Tech</title>
+</head>
+<body>
+    <nav class="navBar">
+        <div class="logo" id="logo">Nova Tech</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="menu-icon" id="menuIcon">☰</div>
+    </nav>
+
+    <div class="hero-section">
+        <h1>Experience Sound Like Never Before</h1>
+        <p>Discover the future of audio technology with Nova Tech's cutting-edge sound systems.</p>
+        <button class="cta-button">Buy Now</button>
+    </div>
+
+
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2>Features</h2>
+            <p class="lead">Designed to deliver exceptional audio performance and comfort.</p>
+
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">🔇</div>
+                    <h3 class="feature-title">Noise Cancellation</h3>
+                    <p class="feature-desc">Block out distractions and immerse yourself in pure sound.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">🔋</div>
+                    <h3 class="feature-title">40-Hour Battery</h3>
+                    <p class="feature-desc">All-day listening on a single charge with fast charging.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">🎧</div>
+                    <h3 class="feature-title">Premium Comfort</h3>
+                    <p class="feature-desc">Soft memory-foam earcups for long-lasting comfort.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2>Product Showcase</h2>
+            <p class="lead">Choose the NovaTech model that fits your lifestyle.</p>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image" style="background:#eef2ff"><img src="assets/images/bg-mic.jpg" alt=""></div>
+                    <div class="product-info">
+                        <h3>NovaTech X1</h3>
+                        <p class="price">$199</p>
+                        <button class="add-to-cart" data-name="NovaTech X1" data-price="$199">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background:#fff7ed"><img src="assets/images/bg-mic.jpg" alt=""></div>
+                    <div class="product-info">
+                        <h3>NovaTech Pro</h3>
+                        <p class="price">$249</p>
+                        <button class="add-to-cart" data-name="NovaTech Pro" data-price="$249">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background:#eefef6"><img src="assets/images/bg-mic.jpg" alt=""></div>
+                    <div class="product-info">
+                        <h3>NovaTech Lite</h3>
+                        <p class="price">$149</p>
+                        <button class="add-to-cart" data-name="NovaTech Lite" data-price="$149">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p class="lead">Have questions or feedback? Send us a message and we'll get back to you.</p>
+
+            <form id="contactForm" novalidate>
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" required>
+                    <div class="error" id="error-name" aria-live="polite"></div>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+                    <div class="error" id="error-email" aria-live="polite"></div>
+                </div>
+
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <div class="error" id="error-message" aria-live="polite"></div>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+                <div class="form-success" id="formSuccess" role="status" aria-live="polite"></div>
+            </form>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
