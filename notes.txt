@@ -102,38 +102,3 @@ Email must be valid
 Copyright © 2025
 
 Social icons (use placeholders or SVG)
-
-
-
----
-
-🎯 Technical Expectations
-
-Clean and readable code
-
-Good spacing, alignment, and typography
-
-Fully responsive (mobile, tablet, desktop)
-
-Good color contrast
-
-No external CSS frameworks
-
-Vanilla JS only
-
-
-
----
-
-🕒 Time Guide
-
-Here’s how to break your 2 hours:
-
-Task	Time
-
-Navbar + Hero	30 mins
-Features cards	20 mins
-Product grid	20 mins
-Contact form + JS validation	25 mins
-Footer	5 mins
-Fix responsiveness	20 mins
